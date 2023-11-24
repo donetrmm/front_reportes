@@ -1,0 +1,56 @@
+ .App {
+    background: linear-gradient(to right, #fefefe, #ffffff); 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .formulario {
+    background-color: rgba(49, 17, 228, 0.852);
+    padding: 150px;
+    border-radius: 15px;
+    width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgb(0, 26, 255);
+  }
+  
+  .formulario label {
+    color: #d1d1d1;
+  }
+  
+  .formulario input,
+  .formulario button {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .formulario button {
+    background: linear-gradient(to right, #1a73e8, #0050a1);
+    color: #ffffff;
+    border: 2px solid #1a73e8;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .formulario button:hover {
+    background: linear-gradient(to right, #0050a1, #7a1ae8);
+    color: #ffffff;
+    border: 2px solid #0080ff;
+  }
+  
+  
+  .form-group.form-check {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .form-group.form-check input {
+    margin-right: 10px;
+  }
+
+
